@@ -13,7 +13,7 @@
    :agave => "1/4 cup"}
 
 def recipe_ingredients(perfect_10_recipe)
-puts    perfect_10_recipe
+   perfect_10_recipe
 end
 
 
@@ -23,19 +23,20 @@ end
 
 def amount_of_chocolate_chips(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient,amount|
-    puts "#{ingredient}"
-    puts "#{amount}"
+     "#{ingredient}"
+     "#{amount}"
   end
 end
 
+def amount_of_chocolate_chips(perfect_10_recipe)
+  
 
 
 
 
-
-def amount_of_chocolate_chip(perfect_10_recipe)
+def amounts_of_chocolate_chip(perfect_10_recipe)
 perfect_10_recipe.each_key do |ingredient| 
-puts "#{ingredient}"
+  "#{ingredient}"
   end 
 end
 
@@ -47,14 +48,14 @@ end
 
 def amounts(perfect_10_recipe)
   perfect_10_recipe.each_value do |amount|
-  puts "#{amount}"
+   "#{amount}"
  end
 end 
 
 
 # #6: Return the number of ingredients in the `perfect_10_recipe` hash.
  def number_ingredients(perfect_10_recipe)
-   puts perfect_10_recipe.length
+    perfect_10_recipe.length
  end
    
 number_ingredients(perfect_10_recipe)
